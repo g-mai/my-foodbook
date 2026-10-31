@@ -1,5 +1,5 @@
 ---
-title: Chicken Mince Enchiladas
+title: Chicken Enchiladas
 source: https://www.hellofresh.nl/recipes/enchiladas-met-kipgehakt-5fa2c67b2f24101302240ec2
 addedAt: '2026-10-10T11:36:03Z'
 language: en

@@ -1,6 +1,6 @@
 # Recipe imports from your phone
 
-The [recipe-import skill](../.agents/skills/recipe-import/SKILL.md) reads a URL, supplied text, or magazine/book photograph, prepares Foodbook Markdown and a local photo, asks for confirmation, and opens a pull request in `g-mai/my-foodbook`. It does not change application code, push to `main`, or merge the PR itself.
+The [recipe-import skill](../.agents/skills/recipe-import/SKILL.md) reads a URL, supplied text, or magazine/book photograph, prepares My Foodbook Markdown and a local photo, asks for confirmation, and opens a pull request in `g-mai/my-foodbook`. It does not change application code, push to `main`, or merge the PR itself.
 
 The `Validate` workflow runs `pnpm validate:recipes` for PRs containing only allowed recipe/photo additions and updates: recipe Markdown formatting plus the Astro build, which validates metadata and referenced images. Other PRs and pushes to `main` run full formatting, lint, tests, types, and build checks. Dependency caching is enabled. The workflow always reports the same required `Validate` check; no branch-rule changes are needed. After successful PR validation, `Auto-merge recipes` attempts a squash merge only when:
 
@@ -40,7 +40,7 @@ The archive has one top-level `recipe-import/` folder. It is a local export, not
 
 Example request:
 
-> Import this recipe into my Foodbook: [source URL]. Use this photo and show me the recipe before publishing.
+> Import this recipe into My Foodbook: [source URL]. Use this photo and show me the recipe before publishing.
 
 The agent translates the supplied recipe into English, converts measurements to metric, prepares the local photo, and asks for confirmation. Translation and conversion are always part of imports, including updates; uncertain conversions must be resolved before publication. It does not scan saved recipes or open PRs for duplicates; it checks only proposed file paths to avoid overwriting existing content. Once you confirm, it opens a non-draft recipe-only PR. Successful CI triggers the trusted merge workflow; Cloudflare then builds and deploys the merged change. The agent should return the PR link and distinguish CI, merge, and deployment status.
 

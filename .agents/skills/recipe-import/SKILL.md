@@ -1,9 +1,9 @@
 ---
 name: recipe-import
-description: Import or update a recipe in Gianmarco's Foodbook from a URL, supplied text, or a magazine picture, always in English and metric, with optional source attribution, a local photo, and a recipe-only GitHub pull request. Use for saving recipes to g-mai/my-foodbook, not changing the application or GitHub settings.
+description: Import or update a recipe in Gianmarco's My Foodbook from a URL, supplied text, or a magazine picture, always in English and metric, with optional source attribution, a local photo, and a recipe-only GitHub pull request. Use for saving recipes to g-mai/my-foodbook, not changing the application or GitHub settings.
 ---
 
-# Import a Foodbook recipe
+# Import a My Foodbook recipe
 
 Work in `g-mai/my-foodbook`, targeting `main`. The GitHub connector can be used without a local checkout. Use the user's connected account; never request a token in chat. Do not push directly to `main` or merge the PR yourself.
 

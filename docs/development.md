@@ -1,6 +1,6 @@
 # Development and hosting
 
-Foodbook's application and recipe collection live in one repository. Work directly on its code, styles, and recipes. There is no configuration or override layer for adapting it into other cookbooks.
+My Foodbook's application and recipe collection live in one repository. Work directly on its code, styles, and recipes. There is no configuration or override layer for adapting it into other cookbooks.
 
 ## Local commands
 

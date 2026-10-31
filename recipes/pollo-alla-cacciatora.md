@@ -1,5 +1,5 @@
 ---
-title: Chicken Cacciatore (Pollo alla Cacciatora)
+title: Pollo alla Cacciatora
 source: https://blog.giallozafferano.it/maniamore/pollo-alla-cacciatora-ricetta/
 addedAt: '2026-10-05T17:26:52Z'
 language: en

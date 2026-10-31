@@ -1,5 +1,5 @@
 ---
-name: Foodbook
+name: My Foodbook
 description: A personal kitchen scrapbook with green ink, white photo prints, and room to explore.
 colors:
   primary: '#365c45'
@@ -110,7 +110,7 @@ components:
     padding: '0.85rem'
 ---
 
-# Design System: Foodbook
+# Design System: My Foodbook
 
 ## Overview
 

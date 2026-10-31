@@ -2,7 +2,7 @@
 
 ### Personal recipe collector
 
-- Foodbook is Gianmarco's personal recipe collector with open-source application code, not a reusable starter product or hosted service. Keep work focused on maintaining this cookbook; do not add onboarding, separate-repository workflows, or downstream release machinery without a specific request.
+- My Foodbook is Gianmarco's personal recipe collector with open-source application code, not a reusable starter product or hosted service. Keep work focused on maintaining this cookbook; do not add onboarding, separate-repository workflows, or downstream release machinery without a specific request.
 - Application code, recipes, photos, notes, and configuration belong in this repository. Check the checkout and existing changes before editing; do not assume an `upstream` remote or require a second repository.
 - Keep the application direct and simple: site copy lives in pages and components, page metadata in `src/layouts/Layout.astro`, and styles in `src/styles/global.css`. Do not recreate configuration, personal override layers, or product preference systems without a specific request.
 - All recipe Markdown files belong directly in the root `recipes/` folder, with photos in `recipes/images/`. Track both in this repository. Every recipe is loaded; there are no default/example collections or inclusion settings. See `docs/recipes.md` for the format.
